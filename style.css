@@ -1,3 +1,45 @@
-#heading {
-    color: red;
+.header {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black
+}
+.logo{
+    width: 200px;
+}
+.nav-items> ul{
+
+display: flex;
+list-style: none;
+font-size: 24px;
+
+}
+.nav-items >ul >li{
+    padding: 10px;
+    margin: 10px;
+}
+.rest_container{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between;
+     */
+}
+.res-card{
+    padding: 5px;
+    height: 400px;
+    width: 200px;
+    background-color: lightgray;
+    margin: 5px;
+
+}
+.res-card:hover{
+    cursor: pointer;
+    border: 1px solid black;
+}
+.search{
+    padding: 10px;
+}
+.res-logoImg{
+   
+    
+    width: 100%;
 }
